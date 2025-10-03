@@ -13,7 +13,7 @@
 
     <div class="button-group">
         <button @click="createEmployee"> Create Employee</button>
-        <button @click="cancel" :disabled="!hasInput">Cancel</button>
+        <button @click="cancel" :disabled="!hasInput">Clear</button>
     </div>
 
     <div v-if="error" class="error">{{ error }}</div>
